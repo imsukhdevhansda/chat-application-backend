@@ -35,7 +35,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send("Welcome to the cheat app server");
+  res.send("Welcome to the chat app server");
 });
 
 app.use("/login", loginRouter);
